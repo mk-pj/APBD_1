@@ -6,6 +6,6 @@ Console.WriteLine("Hello, World!");
 
 Console.WriteLine("First change");
 
-SuperClass c = new SuperClass(5);
+SuperClass c = new(5);
 
 Console.WriteLine(c.getNum());
